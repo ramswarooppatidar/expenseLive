@@ -14,7 +14,7 @@ export const Navbar=({authenticate, logout})=>{
                             <img src="https://cdn-icons-png.flaticon.com/128/3886/3886981.png"/>  
                         </div>
                         <div>
-                            <NavLink class={styles.navLink} to="/">
+                            <NavLink className={styles.navLink} to="/">
                                 <h2>Add</h2>
                             </NavLink>
                            
@@ -26,7 +26,7 @@ export const Navbar=({authenticate, logout})=>{
                             <img src="https://cdn-icons-png.flaticon.com/128/1420/1420341.png"/>  
                         </div>
                         <div>
-                        <NavLink to="expenses" class={styles.navLink}>
+                        <NavLink to="expenses" className={styles.navLink}>
                             <h2>Expenses</h2>
                         </NavLink>
                         </div>
@@ -37,7 +37,7 @@ export const Navbar=({authenticate, logout})=>{
                             <img src="https://cdn-icons-png.flaticon.com/128/5622/5622900.png"/>  
                         </div>
                         <div>
-                        <NavLink to="info" class={styles.navLink} >
+                        <NavLink to="info" className={styles.navLink} >
                             <h2>Info</h2>
                         </NavLink>
                         </div>
@@ -49,7 +49,7 @@ export const Navbar=({authenticate, logout})=>{
                             <img src="https://cdn-icons-png.flaticon.com/128/1716/1716282.png"/>  
                         </div>
                         <div>
-                           <NavLink onClick={() =>{logout()}} to='/' class={styles.navLink} >
+                           <NavLink onClick={() =>{logout()}} to='/' className={styles.navLink} >
                                 <h2>Logout</h2>
                            </NavLink>
                         </div>
@@ -63,7 +63,7 @@ export const Navbar=({authenticate, logout})=>{
                             <img src="https://cdn-icons-png.flaticon.com/128/3886/3886981.png"/>  
                         </div>
                         <div>
-                            <NavLink class={styles.navLink} to="/">
+                            <NavLink className={styles.navLink} to="/">
                                 <h2>Home</h2>
                             </NavLink>                           
                         </div>                                          
@@ -73,7 +73,7 @@ export const Navbar=({authenticate, logout})=>{
                             <img src="https://cdn-icons-png.flaticon.com/128/3711/3711310.png"/>  
                         </div>
                         <div>
-                        <NavLink class={styles.navLink} to="signin">
+                        <NavLink className={styles.navLink} to="signin">
                             <h2>Login</h2>
                            
                         </NavLink>

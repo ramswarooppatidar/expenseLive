@@ -39,7 +39,8 @@
 }
 .navLink{
     text-decoration: none;
-    color: inherit; /* Ensures that the link text color matches the parent element */
+    color: inherit;
+     /* Ensures that the link text color matches the parent element */
   }
 
 @media only screen and (max-width: 768px) {
@@ -48,7 +49,7 @@
     }
 
     .field {
-        margin-left: 0; /* Remove left margin */
+        margin-left: 0.9rem; /* Remove left margin */
     }
 
     .field h2 {
