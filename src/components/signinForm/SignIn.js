@@ -41,14 +41,16 @@ export const SignIn=( {authenticateUser})=>{
     return(
         <>
         <div className={styles.signInContainer}>
-            <h1>Sign In</h1>
+            <h1>Already user</h1>
             <div className={styles.field}>
+            <label htmlFor="expenseText">Username</label>
                 <input type="text" 
-                placeholder="Enter Email"
+                placeholder="user123"
                 onChange={handleUsername}
                 />
+                <label htmlFor="expenseText">Password</label>
                 <input type="text" 
-                placeholder="Enter Password"
+                placeholder="123456"
                 onChange={handlePassword}
                 />
                 {/* <button>Sign In</button> */}
@@ -60,6 +62,8 @@ export const SignIn=( {authenticateUser})=>{
             </div>
             <NavLink to="/signup">
             <h3 className={styles.signUp}>newUser</h3>
+            {/* <span className={styles.text}>Create User? <NavLink to='/signin' className={styles.link}>click</NavLink></span> */}
+
             </NavLink>
             
         </div>

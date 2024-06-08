@@ -40,16 +40,20 @@ export const SignUp=({createUser})=>{
         <div className={styles.signInContainer}>
             <h1>Create user</h1>
             <div className={styles.field}>
+            <label htmlFor="expenseText">Name</label>
                  <input type="text"
-                  placeholder="Name"
+                  placeholder="User"
                   onChange={handleName}
                   />
+                <label htmlFor="expenseText">Username</label>
                 <input type="text"
-                 placeholder="Email"
+                 placeholder="user123"
                  onChange={handleUsername}
                  />
+
+            <label htmlFor="expenseText">Password</label>
                 <input type="text" 
-                placeholder="Enter Password"
+                placeholder="123456"
                 onChange={handlePassword}
                 />
                 <button className={styles.button} 
