@@ -15,7 +15,7 @@ export const Navbar=({authenticate, logout})=>{
                         </div>
                         <div>
                             <NavLink to="/">
-                                <h2>Add-expense</h2>
+                                <h2>Add</h2>
                             </NavLink>
                            
                         </div>
@@ -28,6 +28,17 @@ export const Navbar=({authenticate, logout})=>{
                         <div>
                         <NavLink to="expenses">
                             <h2>Expenses</h2>
+                        </NavLink>
+                        </div>
+                                            
+                    </div>
+                    <div className={styles.field}>
+                        <div>
+                            <img src="https://cdn-icons-png.flaticon.com/128/5622/5622900.png"/>  
+                        </div>
+                        <div>
+                        <NavLink to="info">
+                            <h2>Info</h2>
                         </NavLink>
                         </div>
                                             
@@ -59,7 +70,7 @@ export const Navbar=({authenticate, logout})=>{
                     </div>
                     <div className={styles.field}>
                         <div>
-                            <img src="https://cdn-icons-png.flaticon.com/128/2050/2050106.png"/>  
+                            <img src="https://cdn-icons-png.flaticon.com/128/2170/2170091.png"/>  
                         </div>
                         <div>
                         <NavLink to="signin">
