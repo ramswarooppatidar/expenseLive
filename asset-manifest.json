@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/expenseLive/static/css/main.0c8aab2b.css",
+    "main.css": "/expenseLive/static/css/main.cdc622ea.css",
     "main.js": "/expenseLive/static/js/main.bc2072dd.js",
     "static/media/edit.png": "/expenseLive/static/media/edit.21622d04ce8af31a7190.png",
     "static/media/trash-bin.png": "/expenseLive/static/media/trash-bin.e2d7a73c365ba8d4c545.png",
     "index.html": "/expenseLive/index.html",
-    "main.0c8aab2b.css.map": "/expenseLive/static/css/main.0c8aab2b.css.map",
+    "main.cdc622ea.css.map": "/expenseLive/static/css/main.cdc622ea.css.map",
     "main.bc2072dd.js.map": "/expenseLive/static/js/main.bc2072dd.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c8aab2b.css",
+    "static/css/main.cdc622ea.css",
     "static/js/main.bc2072dd.js"
   ]
 }
