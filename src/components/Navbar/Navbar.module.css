@@ -33,15 +33,11 @@
 }
 
 .field h2 {
-    color: rgb(243, 243, 249);
-    font-size: 1.2rem; /* Decrease font size */
+    color: blue;
+    font-size: 1rem; /* Decrease font size */
     margin: 0.5rem 0; /* Adjust margin */
 }
-.navLink{
-    text-decoration: none;
-    color: inherit;
-     /* Ensures that the link text color matches the parent element */
-  }
+
 
 @media only screen and (max-width: 768px) {
     .pages {
@@ -49,10 +45,16 @@
     }
 
     .field {
-        margin-left: 0rem; /* Remove left margin */
+        margin-left: 0; /* Remove left margin */
     }
 
     .field h2 {
-        font-size: 0.9rem; /* Further decrease font size */
+        font-size: 0.8rem; /* Further decrease font size */
     }
 }
+
+.navLink{
+    text-decoration: none;
+    color: inherit;
+     /* Ensures that the link text color matches the parent element */
+  }

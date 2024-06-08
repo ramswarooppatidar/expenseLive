@@ -171,7 +171,7 @@ function App() {
     console.log("create user : ",name, email, password);
     // setAuthenticate(true); 
     authenticateUser(email, password);
-    toast.success('user regiester successful') 
+    
     }catch(err){
       console.log("error :", err)
       toast.error('failed to add user');
@@ -200,7 +200,7 @@ function App() {
       setUserId(foundUser.id);
     
       dispatch({ type: "GET_EXPENSES", payload: { expenses: foundUser.expenses || [] } });
-      console.log("valllllll++++++++++++++++++++++")
+      toast.success('user regiester successful') 
       return true;
     }else{
       setAuthenticate(false);
