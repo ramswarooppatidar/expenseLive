@@ -200,7 +200,7 @@ function App() {
       setUserId(foundUser.id);
     
       dispatch({ type: "GET_EXPENSES", payload: { expenses: foundUser.expenses || [] } });
-      toast.success('user regiester successful') 
+      toast.success('user login successful') 
       return true;
     }else{
       setAuthenticate(false);
