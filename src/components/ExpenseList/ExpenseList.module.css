@@ -1,9 +1,11 @@
 .expenseListContainer {
   text-align: left;
   width: 100%;
-  margin-top: 20pxnpm ;
+  margin-top: 25px ;
 }
-
+.expenseListContainer ul{
+  margin-top: 5px;
+}
 .expenseListContainer h3 {
   padding-bottom: 0.5rem;
   border-bottom: 2px solid #dedede;
@@ -15,7 +17,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  gap: 0.5rem;
+  gap: 0.7rem;
   height: 100%;
 }
 

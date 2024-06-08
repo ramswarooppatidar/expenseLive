@@ -70,7 +70,7 @@ export const Navbar=({authenticate, logout})=>{
                     </div>
                     <div className={styles.field}>
                         <div>
-                            <img src="https://cdn-icons-png.flaticon.com/128/2170/2170091.png"/>  
+                            <img src="https://cdn-icons-png.flaticon.com/128/3711/3711310.png"/>  
                         </div>
                         <div>
                         <NavLink to="signin">
