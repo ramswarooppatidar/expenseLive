@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/expenseLive/static/css/main.0ae3c045.css",
+    "main.js": "/expenseLive/static/js/main.8c3df45f.js",
+    "static/media/edit.png": "/expenseLive/static/media/edit.21622d04ce8af31a7190.png",
+    "static/media/trash-bin.png": "/expenseLive/static/media/trash-bin.e2d7a73c365ba8d4c545.png",
+    "index.html": "/expenseLive/index.html",
+    "main.0ae3c045.css.map": "/expenseLive/static/css/main.0ae3c045.css.map",
+    "main.8c3df45f.js.map": "/expenseLive/static/js/main.8c3df45f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ae3c045.css",
+    "static/js/main.8c3df45f.js"
+  ]
+}
