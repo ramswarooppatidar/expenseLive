@@ -49,10 +49,10 @@
     }
 
     .field {
-        margin-left: 0.9rem; /* Remove left margin */
+        margin-left: 0rem; /* Remove left margin */
     }
 
     .field h2 {
-        font-size: 0.8rem; /* Further decrease font size */
+        font-size: 0.9rem; /* Further decrease font size */
     }
 }
