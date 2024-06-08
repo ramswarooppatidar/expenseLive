@@ -37,7 +37,10 @@
     font-size: 1.2rem; /* Decrease font size */
     margin: 0.5rem 0; /* Adjust margin */
 }
-
+.navLink{
+    text-decoration: none;
+    color: inherit; /* Ensures that the link text color matches the parent element */
+  }
 
 @media only screen and (max-width: 768px) {
     .pages {
