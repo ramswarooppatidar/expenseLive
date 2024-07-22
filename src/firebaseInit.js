@@ -40,22 +40,48 @@
 // export { db };
 
 
-//expense2
+
+
+// //expense2
+// // Import the functions you need from the SDKs you need
+// import { initializeApp } from "firebase/app";
+// // import { getFirestore } from 'firebase/firestore/lite';
+// import { getFirestore } from "firebase/firestore";
+// // TODO: Add SDKs for Firebase products that you want to use
+// // https://firebase.google.com/docs/web/setup#available-libraries
+
+// // Your web app's Firebase configuration
+// const firebaseConfig = {
+//   apiKey: "AIzaSyAo2bJ_PbJ-4SH3fIsYu03bPcC_0SNbFzk",
+//   authDomain: "expense2-d787e.firebaseapp.com",
+//   projectId: "expense2-d787e",
+//   storageBucket: "expense2-d787e.appspot.com",
+//   messagingSenderId: "291016486460",
+//   appId: "1:291016486460:web:07dc2a5f76a2a306165d39"
+// };
+
+// // Initialize Firebase
+// const app = initializeApp(firebaseConfig);
+// export const db = getFirestore(app);
+
+
+
+
+
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-// import { getFirestore } from 'firebase/firestore/lite';
-import { getFirestore } from "firebase/firestore";
 // TODO: Add SDKs for Firebase products that you want to use
+import { getFirestore } from "firebase/firestore";
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAo2bJ_PbJ-4SH3fIsYu03bPcC_0SNbFzk",
-  authDomain: "expense2-d787e.firebaseapp.com",
-  projectId: "expense2-d787e",
-  storageBucket: "expense2-d787e.appspot.com",
-  messagingSenderId: "291016486460",
-  appId: "1:291016486460:web:07dc2a5f76a2a306165d39"
+  apiKey: "AIzaSyCUTGQFS4JBMTqmQzRyHW_sjT73f9t-LwU",
+  authDomain: "expense-fire-42ff1.firebaseapp.com",
+  projectId: "expense-fire-42ff1",
+  storageBucket: "expense-fire-42ff1.appspot.com",
+  messagingSenderId: "1028264036",
+  appId: "1:1028264036:web:3e15bd6940072f6b144f71"
 };
 
 // Initialize Firebase
